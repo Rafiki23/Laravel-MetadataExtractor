@@ -23,7 +23,6 @@ class IPTCExtractor {
         '2#116' => 'copyrightNotice',
         '2#120' => 'caption',
         '2#122' => 'captionWriter',
-        // innych kodów IPTC, które chcesz obsługiwać
     ];
 
     public static function extract($path) {
