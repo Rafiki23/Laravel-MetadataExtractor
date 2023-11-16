@@ -4,8 +4,7 @@
     "type": "library",
     "authors": [
         {
-            "name": "Rafiki23",
-            "email": "rafiki23@poczta.onet.pl"
+            "name": "Rafiki23"
         }
     ],
     "autoload": {

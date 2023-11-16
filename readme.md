@@ -1,6 +1,11 @@
 # Laravel Metadata Extractor
  A Laravel package for extracting IPTC and EXIF data from images
 
+![Packagist Version (custom server)](https://img.shields.io/packagist/v/rafiki23/metadata-extractor)
+![Packagist PHP Version](https://img.shields.io/packagist/dependency-v/rafiki23/metadata-extractor/php)
+![GitHub License](https://img.shields.io/github/license/Rafiki23/Laravel-MetadataExtractor)
+
+
 ## Installation
 
 Use Composer to install the package:
