@@ -14,6 +14,7 @@ class IPTCExtractor {
         '2#080' => 'author',
         '2#085' => 'authorTitle',
         '2#090' => 'city',
+        '2#092' => 'sublocation',
         '2#095' => 'provinceState',
         '2#101' => 'countryName',
         '2#103' => 'originalTransmissionReference',
