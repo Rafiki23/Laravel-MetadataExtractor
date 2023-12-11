@@ -32,8 +32,17 @@ class IPTCExtractor {
             $iptc = iptcparse($info['APP13']);
             if ($iptc) {
                 foreach (self::$iptcTags as $code => $name) {
-                    if (isset($iptc[$code])) {
+                    if (isset($iptc[$code]) && $code != '2#025') {
                         $iptcData[$name] = $iptc[$code][0];
+                    }
+                    if (isset($iptc[$code]) && $code == '2#025') {
+                        $keywords = '';
+                        $keywordcount = count($iptc["2#025"]);
+
+                        for ($i=0; $i < $keywordcount; $i++) { 
+                            $keywords .= $iptc['2#025'][$i].', ';
+                        }
+                        $iptcData[$name] = rtrim($keywords,', ');
                     }
                 }
             }

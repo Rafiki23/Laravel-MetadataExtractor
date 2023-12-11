@@ -19,7 +19,7 @@ composer require rafiki23/metadata-extractor
 To extract IPTC data:
 
 ```
-use rafiki23\metadata-extractor\MetadataExtractor;
+use Rafiki23\MetadataExtractor\MetadataExtractor;
 
 $iptcData = MetadataExtractor::extractIPTC('path/to/image.jpg');
 
@@ -28,7 +28,7 @@ $iptcData = MetadataExtractor::extractIPTC('path/to/image.jpg');
 To extract EXIF data:
 
 ```
-use rafiki23\metadata-extractor\MetadataExtractor;
+use Rafiki23\MetadataExtractor\MetadataExtractor;
 
 $exifData = MetadataExtractor::extractEXIF('path/to/image.jpg');
 
