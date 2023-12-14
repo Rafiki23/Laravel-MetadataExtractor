@@ -2,11 +2,13 @@
     "name": "rafiki23/metadata-extractor",
     "description": "A Laravel package for extracting IPTC and EXIF data from images",
     "type": "library",
+    "version": "1.0.5",
     "authors": [
         {
             "name": "Rafiki23"
         }
     ],
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rafiki23\\MetadataExtractor\\": "src/"
